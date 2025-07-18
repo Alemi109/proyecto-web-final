@@ -1,0 +1,74 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f0f5; /* morado muy claro */
+    color: #2c1b33; /* texto oscuro morado/grisáceo */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1, h2, h3 {
+    margin-bottom: 10px;
+    color: #4e3b5a; /* morado opaco */
+  }
+  
+  .info-general {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  
+  /* Secciones */
+  section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  }
+  
+  /* Tablas */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #d8cfe2;
+  }
+  
+  th {
+    background-color: #7a6580; /* morado opaco más fuerte */
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f4f0f7;
+  }
+  
+  tr:hover {
+    background-color: #e1d6eb;
+    cursor: pointer;
+  }
+  
+  /* Imagen de perfil */
+  img#foto {
+    margin-top: 20px;
+    border: 3px solid #7a6580;
+    padding: 4px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(122, 101, 128, 0.3);
+  }
+  

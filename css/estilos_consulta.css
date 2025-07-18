@@ -1,0 +1,73 @@
+body {
+  background-color: #f3e8fc; /* morado pálido claro */
+  color: #4a4a4a;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+  background-color: #ede1f7; /* lila suave */
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(180, 130, 220, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(160, 100, 210, 0.5);
+}
+
+.form-label,
+.input-group-text {
+  color: #6c3483; /* morado medio */
+}
+
+.input-group-text {
+  background-color: #f0dafc; /* lavanda pálido */
+  border: none;
+}
+
+.form-control {
+  background-color: #f9f1fd; /* fondo muy claro lila */
+  color: #4a4a4a;
+  border: 1px solid #cba3e8; /* borde lavanda */
+  border-radius: 8px;
+}
+
+.form-control:focus {
+  background-color: #f9f1fd;
+  color: #4a4a4a;
+  border-color: #a06cd5; /* morado suave */
+  box-shadow: 0 0 0 0.2rem rgba(160, 108, 213, 0.25);
+}
+
+.btn-consulta {
+  background-color: #a06cd5; /* morado más fuerte */
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-consulta:hover {
+  background-color: #8e44ad;
+  transform: scale(1.05);
+}
+
+.btn-outline-secondary {
+  border: 1px solid #cba3e8;
+  color: #6c3483;
+  background-color: transparent;
+  border-radius: 8px;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #e5d5f7;
+  color: #fff;
+}
+
+h4, h5, p {
+  color: #6c3483;
+}
